@@ -29,7 +29,7 @@
     } else {
       out.classList.add("no");
       out.innerHTML = "<p class='ins-head'>Not on the current list</p>" + (n ? "<p>" + esc(n) + "</p>" : "") +
-        "<p>You're still welcome here. Self-pay rates are $100 for individual sessions and $110 for couples, and a sliding scale is available. Plans change often, so feel free to call <a href='tel:+18146447898'>(814) 644-7898</a> and ask.</p>";
+        "<p>You're still welcome here. Self-pay rates are $100 for individual sessions, and a sliding scale is available. Plans change often, so feel free to call <a href='tel:+18146447898'>(814) 644-7898</a> and ask.</p>";
     }
   }
   input.addEventListener("input", render);

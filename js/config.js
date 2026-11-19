@@ -3,4 +3,4 @@
    (Headway provider portal → Settings → Profile → "Booking link"),
    paste it between the quotes below. Every "Book" button on the site
    will then open it. Leave it empty to show the "coming soon" section. */
-window.BFA_BOOKING_URL = "";
+window.BFA_BOOKING_URL = "https://care.headway.co/providers/lauren-albright";
